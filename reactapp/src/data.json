@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "img": "../public/img.jpg",
+    "title": "The Last Horizon",
+    "rating": 8.5,
+    "description": "An epic adventure through time and space where humanity fights for survival.",
+    "watchNow": "https://example.com/watch/the-last-horizon"
+  },
+  {
+    "id": 2,
+    "img": "https://images.unsplash.com/photo-1607013251361-3bbf0ce9de3a?fit=crop&w=300&h=450",
+    "title": "Love in Autumn",
+    "rating": 7.2,
+    "description": "A heartfelt romantic drama set in the colors of fall.",
+    "watchNow": "https://example.com/watch/love-in-autumn"
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1579154203451-1a9c79d5a3b2?fit=crop&w=300&h=450",
+    "title": "Cyber Heist",
+    "rating": 6.1,
+    "description": "A group of hackers takes on a corrupt tech empire in a high-stakes thriller.",
+    "watchNow": "https://example.com/watch/cyber-heist"
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1579972664974-14a0d3cfa0ef?fit=crop&w=300&h=450",
+    "title": "Ghosts of Valor",
+    "rating": 8.1,
+    "description": "Supernatural war heroes return to protect their homeland from ancient evil.",
+    "watchNow": "https://example.com/watch/ghosts-of-valor"
+  },
+  {
+    "id": 5,
+    "img": "https://images.unsplash.com/photo-1598515216129-c983ef5446bb?fit=crop&w=300&h=450",
+    "title": "Planet Unknown",
+    "rating": 7.8,
+    "description": "A sci-fi journey to a mysterious planet teeming with life and danger.",
+    "watchNow": "https://example.com/watch/planet-unknown"
+  }
+]

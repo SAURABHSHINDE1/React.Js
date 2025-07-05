@@ -1,0 +1,48 @@
+ .container{
+    height: 300px;
+    width: 900px;
+    background-color:rgb(255, 255, 255);
+    padding: 20px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+ }
+
+ .container h1{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+ }
+
+ .count-div{
+   height: 40px;
+   width: 100%;
+   margin-top: 40px;
+   padding-left: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+ }
+
+ #input{
+   padding: 8px 40px;
+   margin:20px 0px ;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ }
+
+ .dtns{
+   height: 70px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+button{
+   padding: 10px 60px;
+   border:none;
+   background-color: #000;
+   color: #fff;
+   border-radius: 5px;
+}

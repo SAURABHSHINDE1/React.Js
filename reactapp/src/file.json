@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "model": "iPhone 15 Pro Max",
+    "price": 139999,
+    "image": "https://via.placeholder.com/150x300?text=iPhone+15+Pro+Max"
+  },
+  {
+    "id": 2,
+    "model": "Galaxy S24 Ultra",
+    "price": 129999,
+    "image": "https://via.placeholder.com/150x300?text=Galaxy+S24+Ultra"
+  },
+  {
+    "id": 3,
+    "model": "OnePlus 12",
+    "price": 64999,
+    "image": "https://via.placeholder.com/150x300?text=OnePlus+12"
+  },
+  {
+    "id": 4,
+    "model": "Redmi Note 13 Pro+",
+    "price": 31999,
+    "image": "https://via.placeholder.com/150x300?text=Redmi+Note+13+Pro+Plus"
+  },
+  {
+    "id": 5,
+    "model": "Realme GT Neo 5",
+    "price": 37999,
+    "image": "https://via.placeholder.com/150x300?text=Realme+GT+Neo+5"
+  }
+]

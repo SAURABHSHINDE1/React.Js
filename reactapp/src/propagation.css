@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 400px;
+    width: 700px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.g-parent{
+    height: 300px; 
+    width: 600px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.parent{
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+button{
+    padding: 20px 80px;
+    border: none;
+    outline: none;
+    background-color: brown;
+    border: 5px solid black;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-switch{
+    height: 170px;
+    width: 350px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 15px;
+}
+
+.Switch{
+   height: 150px;
+   width: 150px;
+   background-color: red;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+span{
+    font-size: 45px;
+    color:#fff
+}
+
+.on{
+    background-color: rgb(84, 233, 84);
+    transform: translateX(170px);
+    transition: 0.8s ;
+}
+
+.off{
+    background-color: rgb(211, 22, 22);
+    transform: translateX(0px);
+    transition: 0.8s ;
+}
