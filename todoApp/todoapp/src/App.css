@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo-container{
+  height: 600px;
+  width: 600px;
+  padding: 30px 20px;
+}
+
+h1{
+  font-size: 45px;
+  color: #fff;
+}
+
+.div{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div input{
+  padding: 18px 20px;
+  width: 80%;
+  border: none;
+  outline: none;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 20px;
+}
+
+.div button{
+  padding:22px;
+  border: none;
+  outline: none;
+  background-color: rgb(3, 131, 252);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.div button:hover{
+  background-color: orange;
+}
+
+.MyunorderedList{
+  height: fit-content;
+  width: 100%;
+  padding-left: 60px;
+}
+
+li{
+  height: 60px;
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0px;
+  border-radius: 10px;
+}
+
+li button{
+  font-size: 20px;
+  padding:9px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mdcheck{
+  color: green;
+  background-color: lightgreen;
+  margin-left: 100px;
+}
+
+#mdcheck:hover{
+  background-color: rgb(90, 236, 90);
+}
+
+#mddel{
+  color:red;
+  background-color: lightsalmon;
+}
+
+#mddel:hover{
+  background-color: rgb(241, 64, 64);
+}
+
+.date-time{
+  color:#fff;
+}
+
+.clear-all{
+  height: 50px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear-btn{
+  padding: 12px 36px;
+  border: none;
+  background-color: rgb(252, 173, 26);
+  border-radius: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.checkbtn,
+.deletbtn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
