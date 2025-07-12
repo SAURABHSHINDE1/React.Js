@@ -38,7 +38,7 @@ export const TodoApp = () => {
   const Handledelet = (value) => {
     const updateddata = task.filter((curritem) => curritem !== value);
     setTask(updateddata);
-    // setCompletedTasks((prev) => prev.filter((t) => t !== value)); // Also remove from completed
+    
   };
 
   const Handleclearall = () => {
@@ -96,7 +96,7 @@ export const TodoApp = () => {
               <span>{currelem}</span>
               <button
                 className="checkbtn"
-                onClick={() => handleToggleComplete(currelem)}
+                onClick={() => handleToggleComplete(currelem)} 
               >
                 <MdCheck />
               </button>

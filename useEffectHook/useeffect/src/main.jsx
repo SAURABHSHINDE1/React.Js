@@ -1,14 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-// import { TodoApp } from './App.jsx'
-import { TodoApp } from './todo/todo.jsx'
-import { Time } from './todo/test.jsx'
-
-
+// import { UseEffect } from './App.jsx'
+import { Useeffect } from './test.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Time />
+    <Useeffect />
   </StrictMode>,
 )
