@@ -1,0 +1,107 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  background-color: 	#f8f9fa;
+}
+
+.chairman-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+}
+
+.chairman-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #ddd;
+}
+
+.chairman-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chairman-name {
+  font-size: 20px;
+  font-weight: 600;
+  color:	#333333;
+  margin-bottom: 6px;
+}
+
+.designation {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.read-more {
+  padding: 8px 16px;
+  background-color: #1f6a37;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #00307c;
+}
+.section-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.chairman-section {
+  padding: 40px 20px;
+}
+
+
+/* 📱 Responsive Adjustments */
+@media (max-width: 480px) {
+  .card-grid {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .chairman-card {
+    padding: 15px;
+  }
+
+  .image-container {
+    width: 120px;
+    height: 120px;
+  }
+
+  .chairman-name {
+    font-size: 18px;
+  }
+
+  .designation {
+    font-size: 14px;
+  }
+
+  .read-more {
+    font-size: 14px;
+    padding:6px 14px;
+    }
+}

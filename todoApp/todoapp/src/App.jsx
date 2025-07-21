@@ -55,10 +55,10 @@ export const TodoApp = () =>{
     }
 
     return <section className="todo-container">
-
+ 
     <header>
         <h1>Todo List</h1>
-    </header>
+    </header> 
 
     <h2 className='date-time'>{DateTime}</h2>
 

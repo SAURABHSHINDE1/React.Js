@@ -62,7 +62,7 @@ export const TodoApp = () => {
 
   // add to local storage
   localStorage.setItem("ReactTodo",JSON.stringify(task))
-
+ 
   return (
     <section className="todo-container">
       <header>
