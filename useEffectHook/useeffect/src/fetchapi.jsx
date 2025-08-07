@@ -16,7 +16,6 @@ export const Fetchdata =()=>{
              setLoading(false)
 
         } catch (err) {
-            console.log(err)
             setError(err)
             setLoading(false)
         }   
@@ -26,15 +25,15 @@ export const Fetchdata =()=>{
     useEffect(()=>{fetchapi()},[])
 
     if(loading){
-        return(<>
+        return<>
         <h1>Loading Data........</h1>
-        </>)
+        </>
     }
 
         if(error){
-        return(<>
+        return<>
         <h1>Error:{error.message}</h1>
-        </>)
+        </>
     }
 
 

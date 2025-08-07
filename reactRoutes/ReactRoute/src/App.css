@@ -1,4 +1,4 @@
-.header-nav{
+/* .header-nav{
   height: 190px;
   width: 100%;
   display: flex;
@@ -95,7 +95,7 @@
    content: "";
   display: block;
   width:0;
-  height: 3px;
+  height: 2px;
   background-color: red;
   position: absolute;
   bottom: -5px;
@@ -165,7 +165,6 @@
 }
 
 
-/* ---------- Tablets (max-width: 1024px) ---------- */
 @media screen and (max-width: 1024px) {
   .header-nav {
     flex-direction: column;
@@ -235,7 +234,7 @@
 }
 
 
-/* ---------- Mobile Devices (max-width: 768px) ---------- */
+
 @media screen and (max-width: 768px) {
   .clglogo img,
   .thorat-img img {
@@ -275,7 +274,7 @@
   }
 
   .thorat-img {
-    display: none; /* Hide image on small devices */
+    display: none; 
   }
 
   .navbar{
@@ -288,7 +287,6 @@
 }
 
 
-/* ---------- Very Small Screens (max-width: 480px) ---------- */
 @media screen and (max-width: 480px) {
   .clgdata h1 {
     font-size: 14px;
@@ -310,4 +308,4 @@
   .more-hover {
     width: 160px;
   }
-}
+}  */

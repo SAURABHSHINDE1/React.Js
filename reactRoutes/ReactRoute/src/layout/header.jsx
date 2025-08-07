@@ -1,5 +1,5 @@
 import { NavLink } from "react-router"
-import '../App.css'
+import './header.css'
 import clglogo from '../assets/clglogo.png'
 import bsthorat from '../assets/bsthorat.png'
 import Carsole from "../pages/carsol"
@@ -31,15 +31,15 @@ export const Header =()=>{
 
     <div className="menus-container">
       <div className="menus">
-         <NavLink to="/">  <a href="#">Home</a></NavLink>
+         <NavLink to="/">  <a href="#">HOME</a></NavLink>
         </div>
 
         <div className="menus">
-          <NavLink to="/about"><a href="#">About Us</a></NavLink>
+          <NavLink to="/about"><a href="#">ABOUT US</a></NavLink>
         </div>
 
         <div className="menus">
-          <NavLink to=""><a href="#">NAAC/IQAC</a></NavLink>
+          <NavLink to="/naacnav"><a href="#">NAAC/IQAC</a></NavLink>
         </div>
 
         <div className="menus">
@@ -51,11 +51,11 @@ export const Header =()=>{
         </div>
 
         <div className="menus">
-          <NavLink to=""><a href="#">DEPARTMENTS</a></NavLink>
+          <NavLink to="/dept"><a href="#">DEPARTMENTS</a></NavLink>
         </div>
 
         <div className="menus">
-          <NavLink to=""><a href="#">EXAMINATION</a></NavLink>
+          <NavLink to="/examination"><a href="#">EXAMINATION</a></NavLink>
         </div>
 
         <div className="menus">
@@ -88,6 +88,7 @@ export const Header =()=>{
     </div>
 
     <div className="buttons">
+      
        <h2>More</h2>
        <div className="more-hover">
         <div className="div">

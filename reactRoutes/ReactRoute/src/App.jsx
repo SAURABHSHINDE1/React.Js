@@ -3,6 +3,8 @@ import { Applayout } from "./Applayout"
 import { Home } from "./pages/Home"
 import { About } from "./pages/about"
 import Carsole from "./pages/carsol"
+import Departments from "./pages/Department/dept"
+import Naac from "./pages/Naccnav/naacnav/Naac"
 
 const App=()=>{
 
@@ -14,11 +16,24 @@ const App=()=>{
          {
       path:"/",
       element:<Home />,
+      children:[{
+        path:'/data',
+        element:
+      }]
     },
          {
       path:"/about",
       element:<About />,
-    }
+    },
+    {
+      path:"/dept",
+      element:<Departments />,
+    },
+     {
+      path:"/naacnav",
+      element:<Naac />,
+    },
+    
       ]
     },
    

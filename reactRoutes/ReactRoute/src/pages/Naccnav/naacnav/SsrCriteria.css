@@ -1,0 +1,125 @@
+.ssr-title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #1f2937;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ssr-table-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.ssr-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.ssr-table thead {
+  background-color: #e5e7eb;
+}
+
+.ssr-table th {
+  padding: 14px 18px;
+  text-align: center;
+  font-weight: 600;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  white-space: nowrap;
+}
+
+.ssr-table td {
+  padding: 12px 16px;
+  border: 1px solid #e5e7eb;
+  color: #111827;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.ssr-table .text-center {
+  text-align: center;
+}
+
+.btn-view {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.btn-view:hover {
+  background-color: #138496;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .ssr-table {
+    border: 0;
+  }
+
+  .ssr-table thead {
+    display: none;
+  }
+
+  .ssr-table tr {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+  }
+
+  .ssr-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #e5e7eb;
+    position: relative;
+    white-space: normal;
+  }
+
+  .ssr-table td:last-child {
+    border-bottom: none;
+  }
+
+  .ssr-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #6b7280;
+    flex-basis: 50%;
+  }
+
+  .ssr-title {
+    font-size: 22px;
+  }
+
+  .btn-view {
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ssr-title {
+    font-size: 20px;
+  }
+
+  .btn-view {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+}

@@ -1,31 +1,23 @@
-import { useEffect } from "react"
+import { useEffect, useRef, useState } from "react"
 
 export const Data = ()=>{
+const username = useRef(null)
 
-     const apidata= async()=>{
+const password = useRef(null)
 
-        try{
 
-             const response = await fetch(`https://jsonplaceholder.typicode.com/posts`)
+    const Hnadlesubmit =(e)=>{
+        e.preventDefault()
 
-        const data = await response.json()
-
-        console.log(data)
-
-        }   
-
-        catch(err){
-            console.log(err)
-        }
-
+        console.log(username.current.value, password.current.value)
     }
 
-    useEffect(()=>{
-         apidata()
-    }, [])
-
-    return <>
-
-        <h1>Hello from apidata</h1>
-    </>
+return <>
+    <form onSubmit={Hnadlesubmit} >
+        <input type="text" name="username" ref={username} />
+        <input type="text" name="password"  ref={password}/>
+        <button type="submit"> Submit</button>
+    </form>
+</>
+    
 }
