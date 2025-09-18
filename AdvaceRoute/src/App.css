@@ -1,0 +1,30 @@
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+}
+
+.logo{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menus{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+    margin-top: 20px;
+}

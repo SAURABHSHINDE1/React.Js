@@ -7,17 +7,18 @@ import './index.css'
 // import { UserData } from './components/hooks/useState.jsx'
 // import Data from './components/hooks/useState.jsx'
 // import { UserData } from './test.jsx'
-// import { ToggleSwitch } from './project/toggleSwitch.jsx'
+import { ToggleSwitch } from './project/toggleSwitch.jsx'
 // import Image from '../src/file.jsx'
 // import { App } from './test'
 import UsateState from './usestate/usestate'
+// import { ToggleSwitch } from './project/toggleSwitch'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
 
-  < UsateState  />
+  < ToggleSwitch  />
 
   </StrictMode>
 )
